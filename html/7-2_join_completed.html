@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="watch">
+    <meta property="og:description" content="HISIGAN">
+    <meta property="og:image" content="og.png">
+    <meta property="og:url" content="">
+    <title>HISIGAN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="assets/libs/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/font.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/common.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/layout.min.css" />    
+</head>
+
+<body>
+<div class="bg_dimmed show "></div>
+<div id="wrap">
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="/"><img src="assets/img/common/logo.svg" alt="HISIGAN"></a>
+            </h1>
+            <button>
+                <img src="assets/img/common/btn_m.svg" alt="">
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#a">시계구매</a></li>
+                <li><a href="#a">시계옥션</a></li>
+                <li><a href="#a">시계판매</a></li>
+                <li><a href="#a">뉴스&이벤트</a></li>
+                <li><a href="#a">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="join">
+        <section class="back_wrap">
+            <button class="btn_back"></button>
+            <h2>회원가입</h2>
+        </section>
+        <section class="join_agree">
+            <h1>회원정보 입력</h1>
+            <div class="join_list">
+                <p class="tit">아이디 <span>*</span></p>
+                <div class="input_div">
+                    <input type="text" class="input_t" placeholder="아이디 (3자 이상, 영문/숫자만)">
+                </div>
+                
+                <p class="tit">비밀번호 <span>*</span></p>
+                <div class="input_div">
+                    <input type="password" class="input_t" placeholder="비밀번호">
+                    <input type="password" class="input_t" placeholder="비밀번호 확인">
+                </div>
+                
+                <p class="tit">개인정보 <span>*</span></p>
+                <div class="input_div">
+                    <input type="text" class="input_t" placeholder="이름">
+                    <input type="text" class="input_t" placeholder="이메일">
+                    <input type="text" class="input_t" placeholder="휴대폰 번호">
+                    <input type="text" class="input_t" placeholder="닉네임 (한글 2자, 영문 4자 이상)">
+                </div>
+                
+                <div class="check_wrap ">
+                    <label>
+                        <input type="checkbox">
+                        <span>정보 메일을 받겠습니다.</span>
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        <span>문자메세지를 받겠습니다.</span>
+                    </label>
+                </div>
+                
+                <div class="captcha_box">
+                    <p>자동등록방지 숫자를 순서대로 입력하세요.</p>
+                    <div class="captcha_wrap">
+                        <div class="img_box">
+                            <img src="assets/img/common/img_captcha.png" alt="">
+                        </div>
+                        <div class="btn_wrap">
+                            <button>음성으로 듣기</button>
+                            <button>새로고침</button>
+                        </div>
+                    </div>
+                    <div class="input_div">
+                        <input type="text" class="input_t" placeholder="자동등록방지 숫자">
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn_join">회원가입</button>
+        </section>
+    </main>
+</div>
+<article class="popup_alert">
+    <p class="t1">회원가입이 완료되었습니다. <br>로그인 후 사용 가능합니다.</p>
+    <button class="btn_ok">확인</button>
+</article>
+<script defer src="assets/libs/jquery-3.4.1.min.js"></script>
+<script src="assets/libs/swiper.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script defer src="assets/js/ui.js"></script>
+</body>
+</html>

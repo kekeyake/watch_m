@@ -1,3 +1,12 @@
+$f20 :5.556vw;
+$f18 :5vw;
+$f16 :4.444vw;
+$f14 :3.889vw;
+$f13 :3.611vw;
+$f12 :3.333vw;
+$f11 :3.056vw;
+$f10 :2.778vw;
+$f9 :2.500vw;
 @charset "UTF-8";
 html, body {
   height: 100%;
@@ -131,16 +140,19 @@ a {
 }
 
 input[type="checkbox"] {
-    outline: none;
-    appearance: none;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url(../img/common/ico_checkbox_off.svg) no-repeat 0 0 / cover;
-    &:checked {
-        background: url(../img/common/ico_checkbox_on.svg) no-repeat 0 0 / cover;
-        border: 0 solid #000;
-    }
+  outline: none;
+  appearance: none;
+  display: inline-block;
+  width: 5.556vw;
+  height: 5.556vw;
+  background: #FFF;
+  border: 0.278vw solid #DCE1E6;
+  border-radius: 0.556vw;
+  background: #fff;
+  &:checked {
+      background:#31383F url(../img/common/ico_check.svg) no-repeat 50% 50% / 3.333vw;
+      border: 0.278vw  solid #31383F;
+  }
 }
 input[type="radio"] {
     outline: none;
@@ -165,6 +177,22 @@ input[type="checkbox"].round {
         background: url(../img/common/ico_radio_on.svg) no-repeat 0 0 / cover;
         border: 0 solid #000;
     }
+}
+input.input_t {
+  display: flex;
+  align-items: center;
+  background: #FFF;
+  border: 0.278vw solid #E7ECF1;
+  border-radius: 1.111vw;
+  height: 13.333vw ;
+  padding: 0 4.444vw;
+  font-size: $f14;
+  color:#31383F;
+  font-weight: 500;
+  width: 100%;
+  &::placeholder {
+    opacity: 0.5;
+  }
 }
 .clear:after {
   content: '';
@@ -207,10 +235,13 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 1000;
+  &.show {
+    display: block;
+  }
 }
 
 .poppins {font-family: 'Poppins';}
@@ -388,6 +419,36 @@ footer {
         opacity: 1;
       }
     }
+  }
+}
+/* popup alert */
+.popup_alert {
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width: 83%;
+  background: #FFF;
+  box-shadow: 0 0 6.667vw rgba(0, 0, 0, 0.22);
+  border-radius: 2.222vw;
+  padding:5vw 5.556vw 5.556vw;
+  z-index: 1001;
+  .t1 {
+    font-size: $f16;
+    font-weight: 500;
+    color:rgba(49, 56, 63, 1);
+  }
+  .btn_ok {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 13.333vw;
+    margin-top: 11.111vw ;
+    background: #31383F;
+    border-radius: 1.111vw;
+    font-size: $f16;
+    font-weight: 500;
+    color:#fff;
   }
 }
 /*# sourceMappingURL=common.css.map */
