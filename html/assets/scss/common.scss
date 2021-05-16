@@ -193,6 +193,9 @@ input.input_t {
   &::placeholder {
     opacity: 0.5;
   }
+  &:disabled {
+    background-color: #F5F7FA;
+  }
 }
 .clear:after {
   content: '';
@@ -228,6 +231,7 @@ $f13 :3.611vw;
 
 body {
   overflow-x: hidden;
+  background: #F5F7FA;
 }
 
 .bg_dimmed {
@@ -247,6 +251,7 @@ body {
 .poppins {font-family: 'Poppins';}
 
 header {
+  background: #fff;
   h1 img {
     width: 35.475vw;
   }
@@ -438,6 +443,18 @@ footer {
     font-weight: 500;
     color:rgba(49, 56, 63, 1);
   }
+  .t2 {
+    font-size: $f18;
+    font-weight: 500;
+    color:rgba(49, 56, 63, 1);
+  }
+  .t3 {
+    font-size: $f16;
+    font-weight: 500;
+    color:rgba(49, 56, 63, 1);
+    opacity: 0.75;
+    margin-top: 2.222vw;
+  }
   .btn_ok {
     display: flex;
     justify-content: center;
@@ -449,6 +466,27 @@ footer {
     font-size: $f16;
     font-weight: 500;
     color:#fff;
+  }
+  .btn_wrap {
+    margin-top: 18.333vw;
+    display: flex;
+    justify-content: space-between;
+    button {
+      display: flex;
+      justify-content: center;
+      width: 48.5%;
+      height: 13.333vw;
+      margin-top: 0;
+      background: #31383F;
+      border-radius: 1.111vw;
+      font-size: $f16;
+      font-weight: 500;
+      color:#fff;
+      &.btn_cancel {
+        background: #F5F7FA;
+        color:rgba(49, 56, 63, 1);
+      }
+    }
   }
 }
 /*# sourceMappingURL=common.css.map */

@@ -1,6 +1,10 @@
-$f20 : 5.556vw;
+/* font-size vw */
+$f24 :6.667vw;
+$f22 :6.111vw;
+$f20 :5.556vw;
 $f18 :5vw;
 $f16 :4.444vw;
+$f15 :4.167vw;
 $f14 :3.889vw;
 $f13 :3.611vw;
 $f12 :3.333vw;
@@ -9,4 +13,29 @@ $f10 :2.778vw;
 $f9 :2.500vw;
 @import 'layout/main';
 @import 'layout/join';
-/* font-size vw */
+@import 'layout/mypage';
+
+.back_wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:15.556vw;
+    border-bottom: 0.278vw solid #EDF0F3;
+    background-color: #fff;
+    h2 {
+        font-size: $f18;
+        font-weight: 500;
+        color:#31383F;
+    }
+    .btn_back {
+        position: absolute;
+        left:3.889vw;
+        top:2.778vw;
+        display: flex;
+        justify-content: center;
+        width: 10vw;
+        height: 10vw;
+        background: url(../img/common/btn_back.svg) no-repeat 50% 50% / 4.444vw;
+    }
+}
