@@ -166,6 +166,21 @@ input[type="radio"] {
         border: 0 solid #000;
     }
 }
+input[type="radio"].check {
+  outline: none;
+  appearance: none;
+  display: inline-block;
+  width: 5.556vw;
+  height: 5.556vw;
+  background: #FFF;
+  border: 0.278vw solid #DCE1E6;
+  border-radius: 0.556vw;
+  background: #fff;
+  &:checked {
+      background:#31383F url(../img/common/ico_check.svg) no-repeat 50% 50% / 3.333vw;
+      border: 0.278vw  solid #31383F;
+  }
+}
 input[type="checkbox"].round {
     outline: none;
     appearance: none;
@@ -458,7 +473,31 @@ footer {
     opacity: 0.75;
     margin-top: 2.222vw;
   }
+  .tbl_info {
+    table-layout: fixed;
+    width: 100%;
+    background: rgba(243, 246, 249, 0.5);
+    border: 0.278vw solid #F1F1F1;
+    border-radius: 0.556vw;
+    td,
+    th {
+      padding:2.778vw;
+      border: 0.278vw solid #EDF0F3;
+    }
+    th {
+      font-size: $f12;
+      text-align: left;
+      font-weight: 500;
+      color:rgba(49, 56, 63, 1);
+    }
+    td {
+      font-size: $f11;
+      color: #31383F;
+      vertical-align: top;
+    }
+  }
 
+  .btn,
   .btn_ok {
     display: flex;
     align-items: center;

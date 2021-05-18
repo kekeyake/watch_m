@@ -168,6 +168,25 @@ input[type="radio"]:checked {
   border: 0 solid #000;
 }
 
+input[type="radio"].check {
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: inline-block;
+  width: 5.556vw;
+  height: 5.556vw;
+  background: #FFF;
+  border: 0.278vw solid #DCE1E6;
+  border-radius: 0.556vw;
+  background: #fff;
+}
+
+input[type="radio"].check:checked {
+  background: #31383F url(../img/common/ico_check.svg) no-repeat 50% 50%/3.333vw;
+  border: 0.278vw  solid #31383F;
+}
+
 input[type="checkbox"].round {
   outline: none;
   -webkit-appearance: none;
@@ -565,6 +584,34 @@ footer .footer_btm li span {
   margin-top: 2.222vw;
 }
 
+.popup_alert .tbl_info {
+  table-layout: fixed;
+  width: 100%;
+  background: rgba(243, 246, 249, 0.5);
+  border: 0.278vw solid #F1F1F1;
+  border-radius: 0.556vw;
+}
+
+.popup_alert .tbl_info td,
+.popup_alert .tbl_info th {
+  padding: 2.778vw;
+  border: 0.278vw solid #EDF0F3;
+}
+
+.popup_alert .tbl_info th {
+  font-size: 3.333vw;
+  text-align: left;
+  font-weight: 500;
+  color: #31383f;
+}
+
+.popup_alert .tbl_info td {
+  font-size: 3.056vw;
+  color: #31383F;
+  vertical-align: top;
+}
+
+.popup_alert .btn,
 .popup_alert .btn_ok {
   display: -webkit-box;
   display: -ms-flexbox;

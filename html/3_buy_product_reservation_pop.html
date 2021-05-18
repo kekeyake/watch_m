@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="watch">
+    <meta property="og:description" content="HISIGAN">
+    <meta property="og:image" content="og.png">
+    <meta property="og:url" content="">
+    <title>HISIGAN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="assets/libs/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/font.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/common.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/layout.min.css" />    
+</head>
+
+<body>
+<div class="bg_dimmed show"></div>
+<div id="wrap">
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="/"><img src="assets/img/common/logo.svg" alt="HISIGAN"></a>
+            </h1>
+            <button>
+                <img src="assets/img/common/btn_m.svg" alt="">
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#a">시계구매</a></li>
+                <li><a href="#a">시계옥션</a></li>
+                <li><a href="#a">시계판매</a></li>
+                <li><a href="#a">뉴스&이벤트</a></li>
+                <li><a href="#a">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="buy">
+        <section class="back_wrap">
+            <button class="btn_back"></button>
+            <h2>구매예약</h2>
+        </section>
+        <section class="purchase_reservation">
+            <p class="t1">구매예약을 위해서 아래의 정보를 입력해주세요.</p>
+
+            <h3>방문지점 <span>*</span></h3>
+            <ul class="branch_list">
+                <li>
+                    <label>
+                        <input type="radio" name="branch" class="check">
+                        <span>부산 본점</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="branch" class="check">
+                        <span>서울 직영점</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="branch" class="check">
+                        <span>대구 직영점</span>
+                    </label>
+                </li>
+            </ul>
+
+            <h3>방문일정 <span>*</span></h3>
+            <div class="visit_schedule">
+                <input type="text" class="input_t date" value="2020년 12월 06일">
+                <select name="" id="">
+                    <option value="">10-11시</option>
+                </select>
+            </div>
+
+            <div class="agree_box">
+                <input type="checkbox">
+                <div>
+                    <p class="t1"><a href="#a">개인정보수집</a> 이용에 동의합니다.</p>
+                    <p class="t2">서비스 이용을 위해 필요한 정보로써, 동의를 해주셔야 <br>
+                        서비스를 이용 하실 수 있습니다.</p>
+                </div>
+            </div>
+            <p class="error_txt">방문지점을 선택해주세요.</p> 
+            <div class="btn_wrap">
+                <button class="btn">구매 예약</button>
+            </div>
+        </section>        
+    </main>
+</div>
+<article class="popup_alert">
+    <p class="t2">구매예약이 완료되었습니다.</p>
+    <p class="t3">구매예약한 내용은 마이페이지에서 <br>확인하실 수 있습니다.</p>
+    <button class="btn_ok">확인</button>
+</article>
+<script defer src="assets/libs/jquery-3.4.1.min.js"></script>
+<script src="assets/libs/swiper.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script defer src="assets/js/ui.js"></script>
+
+</body>
+</html>

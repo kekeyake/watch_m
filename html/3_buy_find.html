@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="watch">
+    <meta property="og:description" content="HISIGAN">
+    <meta property="og:image" content="og.png">
+    <meta property="og:url" content="">
+    <title>HISIGAN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="assets/libs/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/font.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/common.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/layout.min.css" />    
+</head>
+
+<body>
+<div class="bg_dimmed"></div>
+<div id="wrap">
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="/"><img src="assets/img/common/logo.svg" alt="HISIGAN"></a>
+            </h1>
+            <button>
+                <img src="assets/img/common/btn_m.svg" alt="">
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#a">시계구매</a></li>
+                <li><a href="#a">시계옥션</a></li>
+                <li><a href="#a">시계판매</a></li>
+                <li><a href="#a">뉴스&이벤트</a></li>
+                <li><a href="#a">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="buy">
+        <section class="back_wrap">
+            <button class="btn_back"></button>
+            <h2>시계 찾아줘</h2>
+        </section>
+        <section class="find_watch">
+            <p class="t1">원하는 시계를 찾아드리는 서비스입니다.
+                아래의 양식을 <br>입력해주시면 원하시는 시계를 찾아드립니다.
+            </p>
+            <h3>상품명 <span>*</span></h3>
+            <div class="input_div">
+                <input type="text" class="input_t" placeholder="상품명을 입력해주세요.">
+            </div>
+            <h3>희망가격 <span>*</span></h3>
+            <div class="input_div">
+                <input type="text" class="input_t" placeholder="희망가격을 입력해주세요.">
+            </div>
+            <h3>요청사항</h3>
+            <textarea name="" id="" cols="30" rows="10" placeholder="요청사항을 입력해주세요."></textarea>
+            <div class="agree_box">
+                <input type="checkbox">
+                <div>
+                    <p class="t1"><a href="#a">개인정보수집</a> 이용에 동의합니다.</p>
+                    <p class="t2">서비스 이용을 위해 필요한 정보로써, 동의를 해주셔야 <br>
+                    서비스를 이용 하실 수 있습니다.</p>
+                </div>
+            </div>
+            <p class="error_txt">상품명을 입력해주세요.</p>
+            <button class="btn">신청하기</button>
+        </section>        
+    </main>
+</div>
+
+<script defer src="assets/libs/jquery-3.4.1.min.js"></script>
+<script src="assets/libs/swiper.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script defer src="assets/js/ui.js"></script>
+<script>
+    var swiper = new Swiper(".product_img", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".product_img_paging",
+            clickable: true
+        },
+    });
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var gradientFill = ctx.createLinearGradient(0, 70, 0, 0);
+    gradientFill.addColorStop(1, "rgba(84, 93, 102, .5)");
+    gradientFill.addColorStop(0, "rgba(84, 93, 102, 0)");
+
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'line',
+
+        // The data for our dataset
+        data: {
+            labels: ["1", "2", "3", "4", "5", "6", "7"],
+            datasets: [{
+                backgroundColor: gradientFill,
+                borderColor: 'rgba(0, 0, 0, 0.25)',
+                data: [0, 3, 5, 2, 2, 3, 0],
+                pointRadius: 0,
+                lineTension: .2,
+                borderWidth: 1,
+            }]
+        },
+
+        // Configuration options go here
+        options: {
+            animation: {
+                duration: 0
+            },
+            legend: {
+                display: false
+            },
+            tooltips: false,
+            clip: false,
+            elements: {
+                point: {
+                    radius: 0
+                }
+            },
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        display: false,
+                        color: '#F5F7FA',
+                    },
+                    ticks: {
+                        display: false,
+                        padding: 10
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        display: false,
+                        color: '#F5F7FA',
+                    },
+                    ticks: {
+                        display: false,
+                        padding: 10
+                    }
+                }]
+            }
+        }
+    });
+</script>
+</body>
+</html>
