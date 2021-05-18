@@ -12,8 +12,10 @@ $f11 :3.056vw;
 $f10 :2.778vw;
 $f9 :2.500vw;
 @import 'layout/main';
-@import 'layout/join';
+@import 'layout/buy';
 @import 'layout/mypage';
+@import 'layout/join';
+
 
 .back_wrap {
     position: relative;
@@ -37,5 +39,30 @@ $f9 :2.500vw;
         width: 10vw;
         height: 10vw;
         background: url(../img/common/btn_back.svg) no-repeat 50% 50% / 4.444vw;
+    }
+}
+
+.graph_box {
+    margin: 5.556vw auto 6.667vw;
+    position: relative;
+    width: 86.667vw;
+    height: 38.889vw;
+    background: #F5F7FA;
+    border: 0.278vw solid #EDF0F3;
+    border-radius: 0.556vw;
+    p {
+        position: absolute;
+        left: 4.444vw;
+        top:4.444vw;
+        font-weight: bold;
+        font-size: $f14;
+        z-index: 1;
+    }
+    .graph {
+        position: absolute;
+        left: 5.556vw;
+        top:9.028vw;
+        width: 75.556vw;
+        height: 24.306vw;
     }
 }

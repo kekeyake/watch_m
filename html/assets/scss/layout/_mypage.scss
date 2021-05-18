@@ -440,7 +440,7 @@
             position: fixed;
             left: 0;
             bottom:0;
-            z-index: 1000;
+            z-index: 100;
             height:23.333vw;
             padding:4.444vw 5.556vw 5.556vw;
             display: flex;
@@ -452,6 +452,7 @@
             button {
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 width: 48%;
                 height: 13.333vw;
                 background: #31383F;
@@ -462,6 +463,23 @@
                 &.btn_cancel {
                     color:rgba(49, 56, 63, 1);
                     background: #F5F7FA;
+                }
+            }
+        }
+        .filter_list {
+            li {
+                padding-left: 6.667vw;
+                label {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #EDF0F3;
+                    padding:4.444vw 6.667vw 4.444vw 0;
+                    span {
+                        font-size: $f15;
+                        color:#31383F;
+                        font-weight: 500;
+                    }
                 }
             }
         }

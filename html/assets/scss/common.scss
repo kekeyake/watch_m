@@ -158,8 +158,8 @@ input[type="radio"] {
     outline: none;
     appearance: none;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 5.556vw;
+    height: 5.556vw;
     background: url(../img/common/ico_radio_off.svg) no-repeat 0 0 / cover;
     &:checked {
         background: url(../img/common/ico_radio_on.svg) no-repeat 0 0 / cover;
@@ -170,8 +170,8 @@ input[type="checkbox"].round {
     outline: none;
     appearance: none;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 5.556vw;
+    height: 5.556vw;
     background: url(../img/common/ico_radio_off.svg) no-repeat 0 0 / cover;
     &:checked {
         background: url(../img/common/ico_radio_on.svg) no-repeat 0 0 / cover;
@@ -195,6 +195,9 @@ input.input_t {
   }
   &:disabled {
     background-color: #F5F7FA;
+  }
+  &:focus {
+    border-color: #343A40;;
   }
 }
 .clear:after {
@@ -455,8 +458,10 @@ footer {
     opacity: 0.75;
     margin-top: 2.222vw;
   }
+
   .btn_ok {
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
     height: 13.333vw;

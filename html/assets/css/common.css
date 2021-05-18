@@ -158,8 +158,8 @@ input[type="radio"] {
      -moz-appearance: none;
           appearance: none;
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 5.556vw;
+  height: 5.556vw;
   background: url(../img/common/ico_radio_off.svg) no-repeat 0 0/cover;
 }
 
@@ -174,8 +174,8 @@ input[type="checkbox"].round {
      -moz-appearance: none;
           appearance: none;
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 5.556vw;
+  height: 5.556vw;
   background: url(../img/common/ico_radio_off.svg) no-repeat 0 0/cover;
 }
 
@@ -220,6 +220,10 @@ input.input_t::placeholder {
 
 input.input_t:disabled {
   background-color: #F5F7FA;
+}
+
+input.input_t:focus {
+  border-color: #343A40;
 }
 
 .clear:after {
@@ -565,6 +569,9 @@ footer .footer_btm li span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
