@@ -925,7 +925,6 @@
   padding: 5vw 6.944vw 4vw;
   color: #31383F;
   border-top: 1px solid #EDF0F3;
-  border-bottom: 1px solid #EDF0F3;
 }
 
 .buy .product_list .total_txt b {
@@ -938,6 +937,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border-top: 1px solid #EDF0F3;
 }
 
 .buy .product_list > ul > li {
@@ -1094,6 +1094,51 @@
 .buy .product_list > ul .btm ul li:last-child {
   width: 100%;
   margin-top: 1.267vw;
+}
+
+.buy .product_list .nodata {
+  padding: 15.278vw 0 30vw;
+  text-align: center;
+}
+
+.buy .product_list .nodata .t1 {
+  font-size: 5vw;
+  font-weight: 700;
+  color: #31383F;
+  line-height: 142%;
+  margin-bottom: 3.333vw;
+}
+
+.buy .product_list .nodata .t2 {
+  font-size: 3.611vw;
+  font-weight: 500;
+  color: #31383F;
+  line-height: 140%;
+}
+
+.buy .product_list .nodata .t2 b {
+  font-weight: 700;
+  color: #BE9162;
+}
+
+.buy .product_list .nodata .link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4.444vw;
+  margin: 9.444vw auto 0;
+  height: 12.222vw;
+  font-size: 3.889vw;
+  color: #fff;
+  font-weight: 500;
+  background: #31383F;
+  border-radius: 1.111vw;
 }
 
 .buy .filter_wrap {
@@ -1262,7 +1307,7 @@
 }
 
 .buy .product_detail .product_info .info_box .t3 {
-  font-size: #f14;
+  font-size: 3.889vw;
   line-height: 4.444vw;
   margin-bottom: 7.778vw;
 }
