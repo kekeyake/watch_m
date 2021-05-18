@@ -1508,10 +1508,6 @@
   font-weight: 500;
 }
 
-.mypage {
-  background-color: #fff;
-}
-
 .mypage > h1 {
   background-color: #fff;
   padding: 8.889vw 6.667vw 1.111vw;
@@ -1640,7 +1636,7 @@
 
 .mypage .my_info {
   background-color: #fff;
-  padding: 0 6.667vw 20vw;
+  padding: 8.333vw 6.667vw 20vw;
 }
 
 .mypage .my_info .grade_wrap {
@@ -1698,6 +1694,11 @@
   padding-bottom: 2.222vw;
   margin: 8.333vw 0 5.556vw;
   border-bottom: 0.278vw solid #edf0f3;
+}
+
+.mypage .my_info h3:first-of-type {
+  margin: 0;
+  border-bottom: 0 solid #000;
 }
 
 .mypage .my_info > .tit {
@@ -1789,6 +1790,7 @@
 }
 
 .mypage > .auction {
+  background-color: #fff;
   padding: 6.667vw;
 }
 
@@ -1900,6 +1902,7 @@
 }
 
 .mypage > .history {
+  background-color: #fff;
   padding: 5.833vw 6.667vw;
 }
 
@@ -2052,6 +2055,7 @@
 
 .mypage .filter_managemenr {
   padding-bottom: 23.333vw;
+  background-color: #fff;
 }
 
 .mypage .filter_managemenr .category_tit {
@@ -2152,116 +2156,6 @@
   background-color: #fff;
 }
 
-.join .login_wrap {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 88%;
-  background: #FFF;
-  -webkit-box-shadow: 0 0 6.667vw rgba(0, 0, 0, 0.22);
-          box-shadow: 0 0 6.667vw rgba(0, 0, 0, 0.22);
-  border-radius: 2.222vw;
-  padding: 6.667vw;
-  z-index: 1001;
-}
-
-.join .login_wrap .btn_closed {
-  width: 3.889vw;
-  height: 3.889vw;
-  background: url(../img/common/btn_x.svg) no-repeat 0 0/cover;
-  position: absolute;
-  top: 6.944vw;
-  right: 6.944vw;
-}
-
-.join .login_wrap h2 {
-  font-size: 6.667vw;
-  font-weight: 700;
-  line-height: 117%;
-  margin-bottom: 4.444vw;
-}
-
-.join .login_wrap .input_div {
-  margin-bottom: 2.222vw;
-}
-
-.join .login_wrap .auto_login {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 4.444vw;
-  padding-bottom: 4.722vw;
-  border-bottom: 1px solid #EDF0F3;
-}
-
-.join .login_wrap .auto_login label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.join .login_wrap .auto_login label span {
-  margin-left: 2.222vw;
-  font-size: 3.889vw;
-  font-weight: 500;
-}
-
-.join .login_wrap .auto_login a {
-  font-size: 3.889vw;
-  color: #3D454D;
-  opacity: 0.75;
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-.join .login_wrap .btn_login {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 14.167vw 0 2.222vw;
-  width: 100%;
-  height: 13.333vw;
-  background: #31383F;
-  border-radius: 1.111vw;
-  font-size: 4.444vw;
-  font-weight: 500;
-  color: #fff;
-}
-
-.join .login_wrap .btn_join {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 13.333vw;
-  background: #F5F7FA;
-  border-radius: 1.111vw;
-  font-size: 4.444vw;
-  font-weight: 500;
-  color: #31383F;
-  margin-bottom: 2.222vw;
-}
-
 .join .join_agree {
   padding: 6.667vw;
 }
@@ -2348,6 +2242,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 11.111vw 0 0;
   width: 100%;
   height: 13.333vw;
@@ -2515,5 +2412,118 @@
   top: 9.028vw;
   width: 75.556vw;
   height: 24.306vw;
+}
+
+.login_wrap {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 88%;
+  background: #FFF;
+  -webkit-box-shadow: 0 0 6.667vw rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 6.667vw rgba(0, 0, 0, 0.22);
+  border-radius: 2.222vw;
+  padding: 6.667vw;
+  z-index: 1001;
+}
+
+.login_wrap .btn_closed {
+  width: 3.889vw;
+  height: 3.889vw;
+  background: url(../img/common/btn_x.svg) no-repeat 0 0/cover;
+  position: absolute;
+  top: 6.944vw;
+  right: 6.944vw;
+}
+
+.login_wrap h2 {
+  font-size: 6.667vw;
+  font-weight: 700;
+  line-height: 117%;
+  margin-bottom: 4.444vw;
+}
+
+.login_wrap .input_div {
+  margin-bottom: 2.222vw;
+}
+
+.login_wrap .auto_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4.444vw;
+  padding-bottom: 4.722vw;
+  border-bottom: 1px solid #EDF0F3;
+}
+
+.login_wrap .auto_login label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login_wrap .auto_login label span {
+  margin-left: 2.222vw;
+  font-size: 3.889vw;
+  font-weight: 500;
+}
+
+.login_wrap .auto_login a {
+  font-size: 3.889vw;
+  color: #3D454D;
+  opacity: 0.75;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.login_wrap .btn_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 14.167vw 0 2.222vw;
+  width: 100%;
+  height: 13.333vw;
+  background: #31383F;
+  border-radius: 1.111vw;
+  font-size: 4.444vw;
+  font-weight: 500;
+  color: #fff;
+}
+
+.login_wrap .btn_join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 13.333vw;
+  background: #F5F7FA;
+  border-radius: 1.111vw;
+  font-size: 4.444vw;
+  font-weight: 500;
+  color: #31383F;
+  margin-bottom: 2.222vw;
 }
 /*# sourceMappingURL=layout.css.map */
