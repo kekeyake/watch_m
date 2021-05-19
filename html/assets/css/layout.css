@@ -4529,6 +4529,89 @@
   font-weight: 500;
 }
 
+.mypage .keyword_wrap {
+  padding: 5.556vw 6.667vw;
+  background-color: #fff;
+  border-bottom: 0.278vw solid #EDF0F3;
+}
+
+.mypage .keyword_wrap .search_box {
+  position: relative;
+}
+
+.mypage .keyword_wrap .search_box button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 1.111vw;
+  border-bottom-right-radius: 1.111vw;
+  width: 21.111vw;
+  height: 13.333vw;
+  background: #31383F;
+  color: #fff;
+  font-size: 4.444vw;
+}
+
+.mypage .keyword_wrap p {
+  margin-top: 2.222vw;
+  font-size: 3.611vw;
+  color: #31383F;
+  opacity: 0.75;
+  font-weight: 500;
+}
+
+.mypage .keyword_list .tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6.667vw 6.667vw 3.333vw;
+  font-size: 3.889vw;
+  color: #31383F;
+  border-bottom: 0.278vw solid #EDF0F3;
+}
+
+.mypage .keyword_list .tit b {
+  font-weight: 700;
+}
+
+.mypage .keyword_list .tit span {
+  opacity: 0.75;
+}
+
+.mypage .keyword_list .tit .btn_del {
+  margin-left: auto;
+  font-size: 3.611vw;
+  font-weight: 500;
+  color: #112211;
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.mypage .keyword_list > ul {
+  background-color: #fff;
+  padding: 0 0 20vw 6.667vw;
+}
+
+.mypage .keyword_list > ul li {
+  padding: 4.722vw 0;
+  font-size: 4.167vw;
+  font-weight: 500;
+  border-bottom: 0.278vw solid #EDF0F3;
+  position: relative;
+}
+
+.mypage .keyword_list > ul li button {
+  display: block;
+  width: 5.556vw;
+  height: 5.556vw;
+  position: absolute;
+  right: 6.667vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: url(../img/common/ic_close_x2.svg) no-repeat 0 0/5.556vw;
+}
+
 .join {
   background-color: #fff;
 }

@@ -491,5 +491,78 @@
             }
         }
     }
+
+    .keyword_wrap {
+        padding:5.556vw 6.667vw;
+        background-color: #fff;
+        border-bottom: 0.278vw solid #EDF0F3;
+        .search_box {
+            position: relative;
+            button {
+                position: absolute;
+                right:0;
+                top:0;
+                border-top-right-radius: 1.111vw;
+                border-bottom-right-radius: 1.111vw;
+                width: 21.111vw;
+                height: 13.333vw;
+                background: #31383F;
+                color:#fff;
+                font-size: $f16;
+            }
+        }
+        p {
+            margin-top: 2.222vw;
+            font-size: $f13;
+            color: #31383F;
+            opacity: 0.75;
+            font-weight: 500;
+        }
+    }
+
+    .keyword_list {
+        .tit {
+            display: flex;
+            padding:6.667vw 6.667vw 3.333vw;
+            font-size: $f14;
+            color: #31383F;
+            border-bottom: 0.278vw solid #EDF0F3;
+            b {
+                font-weight: 700;
+            }
+            span {
+                opacity: 0.75;
+            }
+            .btn_del {
+                margin-left: auto;
+                font-size: $f13;
+                font-weight: 500;
+                color: #112211;
+                opacity: 0.5;
+                text-decoration: underline;
+            }
+        }
+        > ul {
+            background-color: #fff;
+            padding:0 0 20vw 6.667vw;
+            li {
+                padding:4.722vw 0;
+                font-size: $f15;
+                font-weight: 500;
+                border-bottom: 0.278vw solid #EDF0F3;
+                position: relative;
+                button {
+                    display: block;
+                    width: 5.556vw;
+                    height: 5.556vw;
+                    position: absolute;
+                    right:6.667vw;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background: url(../img/common/ic_close_x2.svg) no-repeat 0 0 / 5.556vw;
+                }
+            }
+        }
+    }
 }
 
