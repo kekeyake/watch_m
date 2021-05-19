@@ -1,4 +1,5 @@
 /* font-size vw */
+$f28 :7.778vw;
 $f24 :6.667vw;
 $f22 :6.111vw;
 $f20 :5.556vw;
@@ -13,6 +14,7 @@ $f10 :2.778vw;
 $f9 :2.500vw;
 @import 'layout/main';
 @import 'layout/buy';
+@import 'layout/sales';
 @import 'layout/mypage';
 @import 'layout/join';
 
