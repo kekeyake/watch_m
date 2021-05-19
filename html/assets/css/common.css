@@ -584,6 +584,12 @@ footer .footer_btm li span {
   margin-top: 2.222vw;
 }
 
+.popup_alert .t4 {
+  font-size: 5vw;
+  font-weight: 700;
+  color: #31383f;
+}
+
 .popup_alert .tbl_info {
   table-layout: fixed;
   width: 100%;

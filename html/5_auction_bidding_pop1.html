@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="watch">
+    <meta property="og:description" content="HISIGAN">
+    <meta property="og:image" content="og.png">
+    <meta property="og:url" content="">
+    <title>HISIGAN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="assets/libs/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/font.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/common.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/layout.min.css" />    
+</head>
+
+<body>
+<div class="bg_dimmed show"></div>
+<div id="wrap">
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="/"><img src="assets/img/common/logo.svg" alt="HISIGAN"></a>
+            </h1>
+            <button>
+                <img src="assets/img/common/btn_m.svg" alt="">
+            </button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#a">시계구매</a></li>
+                <li><a href="#a">시계옥션</a></li>
+                <li><a href="#a">시계판매</a></li>
+                <li><a href="#a">뉴스&이벤트</a></li>
+                <li><a href="#a">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="auction">
+        <section class="back_wrap">
+            <button class="btn_back"></button>
+            <h2>제품 상세</h2>
+        </section>
+        <section class="product_detail">
+
+            <div class="product_top">
+                <p class="sale">30% Premium</p>
+                <div class="swiper-container product_img">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="assets/img/product/@watch_01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="assets/img/product/@watch_01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="assets/img/product/@watch_01.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_img_paging swiper-pagination"></div>
+                <div class="count_box">
+                    <span>20</span> :
+                    <span>20</span> :
+                    <span>10</span>
+                    <b>남음</b>
+                </div>
+                <p class="t1">최근 1시간 동안 <b>X,XXX명</b>이 이 시계를 조회하였습니다.</p>
+            </div>
+
+            <div class="product_info">
+                <div class="info_box">
+                    <p class="t1 poppins">Rolex submariner</p>
+                    <p class="t2">Rolex submariner</p>
+                    <p class="t3">가지고 싶다고 누구나 가질 수 없는 시계! <br>성공한 젊은 CEO들의 상징 롤렉스 서브마리너</p>
+                    <div class="bidding_box">
+                        <p class="t1">
+                            <b>166명</b> 입찰 중
+                        </p>  
+                        <input type="text" class="input_t" placeholder="입찰가격을 입력해주세요.">
+                        <p class="error_txt">비밀번호가 동일하지 않습니다.</p>
+                        <button class="btn">입찰</button>
+                    </div>
+                </div>
+                
+                <ul class="info_list">
+                    <li>
+                        <b>생산년도</b>
+                        <div>1990</div>
+                    </li>
+                    <li>
+                        <b>보증서</b>
+                        <div><img src="assets/img/common/ic_certificate.svg" alt=""></div>
+                    </li>
+                    <li>
+                        <b>박스유무</b>
+                        <div><img src="assets/img/common/ic_box.svg" alt=""></div>
+                    </li>
+                    <li>
+                        <b>가격변동</b>
+                        <div>
+                            <span class="fluctuations down">52</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="graph_box">
+                    <p>최근 가격 변동 추이</p>
+                    <div class="graph">
+                        <canvas id="myChart" width="75.556vw" height="24.306vw"></canvas>
+                    </div>
+                </div>
+
+                <div class="branch_list">
+                    <h3>재고보유점</h3>
+                    <ul>
+                        <li class="checked">
+                            <label>
+                                <input type="radio" name="branch" checked>
+                                <span>부산 본점</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="branch">
+                                <span>대구직영점</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="branch">
+                                <span>서울직영점</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info_wrap">
+                <h3>기본 정보</h3>
+                <ul>
+                    <li>
+                        <b>광고 번호</b>
+                        <span>AFBRE5</span>
+                    </li>
+                    <li>
+                        <b>브랜드</b>
+                        <span>마틴 브라운</span>
+                    </li>
+                    <li>
+                        <b>무브먼트</b>
+                        <span>자동</span>
+                    </li>
+                    <li>
+                        <b>케이스 소재</b>
+                        <span>스틸</span>
+                    </li>
+                    <li>
+                        <b>시계줄 소재</b>
+                        <span>가죽</span>
+                    </li>
+                    <li>
+                        <b>생산 연도</b>
+                        <span>미확인</span>
+                    </li>
+                    <li>
+                        <b>상품 컨디션</b>
+                        <span>매우 우수</span>
+                    </li>
+                    <li>
+                        <b>구성품</b>
+                        <span>정품 박스 있음, 서류 원본 있음</span>
+                    </li>
+                    <li>
+                        <b>성별</b>
+                        <span>남성용 / 남녀 공용</span>
+                    </li>
+                </ul>
+                <h3>무므먼트 / 칼리버</h3>
+                <ul>
+                    <li>
+                        <b>광고 번호</b>
+                        <span>AFBRE5</span>
+                    </li>
+                    <li>
+                        <b>브랜드</b>
+                        <span>마틴 브라운</span>
+                    </li>
+                    <li>
+                        <b>무브먼트</b>
+                        <span>자동</span>
+                    </li>
+                    <li>
+                        <b>케이스 소재</b>
+                        <span>스틸</span>
+                    </li>
+                    <li>
+                        <b>시계줄 소재</b>
+                        <span>가죽</span>
+                    </li>
+                    <li>
+                        <b>생산 연도</b>
+                        <span>미확인</span>
+                    </li>
+                    <li>
+                        <b>상품 컨디션</b>
+                        <span>매우 우수</span>
+                    </li>
+                    <li>
+                        <b>구성품</b>
+                        <span>정품 박스 있음, 서류 원본 있음</span>
+                    </li>
+                    <li>
+                        <b>성별</b>
+                        <span>남성용 / 남녀 공용</span>
+                    </li>
+                </ul>
+                <h3>설명</h3>
+                <p class="txt">
+                    Condição:Relógio novo, inclui caixa, documentos e certificado de garantia.Método de pagamento:Trusted Checkout através da Chrono24Envio:Nós enviamos para o mundo todo com a Fedex.Compradores internacionais serão responsáveis por
+                </p>
+            </div>
+
+            <div class="btn_wrap">
+                <button class="btn">입찰</button>
+            </div>
+        </section>        
+    </main>
+</div>
+<article class="popup_alert">
+    <p class="t4">입찰금액 : 2,000,000원</p>
+    <p class="t3">입력하신 금액으로 입찰하시겠습니까?</p>
+    <div class="btn_wrap">
+        <button class="btn_cancel">취소</button>
+        <button class="btn_ok">확인</button>
+    </div>
+</article>
+<script defer src="assets/libs/jquery-3.4.1.min.js"></script>
+<script src="assets/libs/swiper.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script defer src="assets/js/ui.js"></script>
+<script>
+    var swiper = new Swiper(".product_img", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".product_img_paging",
+            clickable: true
+        },
+    });
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var gradientFill = ctx.createLinearGradient(0, 70, 0, 0);
+    gradientFill.addColorStop(1, "rgba(84, 93, 102, .5)");
+    gradientFill.addColorStop(0, "rgba(84, 93, 102, 0)");
+
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'line',
+
+        // The data for our dataset
+        data: {
+            labels: ["1", "2", "3", "4", "5", "6", "7"],
+            datasets: [{
+                backgroundColor: gradientFill,
+                borderColor: 'rgba(0, 0, 0, 0.25)',
+                data: [0, 3, 5, 2, 2, 3, 0],
+                pointRadius: 0,
+                lineTension: .2,
+                borderWidth: 1,
+            }]
+        },
+
+        // Configuration options go here
+        options: {
+            animation: {
+                duration: 0
+            },
+            legend: {
+                display: false
+            },
+            tooltips: false,
+            clip: false,
+            elements: {
+                point: {
+                    radius: 0
+                }
+            },
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        display: false,
+                        color: '#F5F7FA',
+                    },
+                    ticks: {
+                        display: false,
+                        padding: 10
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        display: false,
+                        color: '#F5F7FA',
+                    },
+                    ticks: {
+                        display: false,
+                        padding: 10
+                    }
+                }]
+            }
+        }
+    });
+</script>
+</body>
+</html>
