@@ -564,5 +564,37 @@
             }
         }
     }
+
+    .branch_top {
+        background: #000;
+        width: 100%;
+        height: 55.556vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            position: absolute;
+            left: 0;
+            top:0;
+            width: 100%;
+        }
+        p {
+            position: relative;
+            z-index: 1;
+            color:#fff;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.6;
+            &.t1 {
+                font-size: $f20;
+
+            }
+            &.t2 {
+                font-size: $f14;
+            }
+        }
+    }
 }
 
