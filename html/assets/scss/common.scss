@@ -243,6 +243,10 @@ $f13 :3.611vw;
   position: relative;
   width: 100%;
 }
+#wrap {
+  width: 100%;
+  overflow-x: hidden;
+}
 #wrap.app {
   padding-bottom: 17.778vw;
 }
