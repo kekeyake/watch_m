@@ -860,6 +860,330 @@
           transform: translate(-50%, -50%);
 }
 
+.warranty .warranty_top {
+  background: #343A40;
+  width: 100%;
+  height: 55.556vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.warranty .warranty_top img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.warranty .warranty_top p {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.warranty .warranty_top p.t1 {
+  font-size: 5.556vw;
+}
+
+.warranty .warranty_top p.t2 {
+  font-size: 3.889vw;
+}
+
+.warranty .warranty_info {
+  padding: 10.833vw 5vw 13.889vw;
+  background: #fff;
+}
+
+.warranty .warranty_info h3 {
+  font-size: 5.556vw;
+  color: #BE9162;
+  font-weight: 400;
+  margin-top: 10.833vw;
+}
+
+.warranty .warranty_info h3:first-of-type {
+  margin-top: 0;
+}
+
+.warranty .warranty_info .t1 {
+  font-size: 5vw;
+  color: #31383F;
+  text-align: center;
+  margin-top: 3.333vw;
+}
+
+.warranty .warranty_info .t2 {
+  font-size: 3.611vw;
+  color: #31383F;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-top: 2.222vw;
+}
+
+.warranty .warranty_info > div {
+  margin-top: 11.111vw;
+}
+
+.warranty .warranty_info > div.direct_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.warranty .warranty_info > div.direct_box > img {
+  width: 20.833vw;
+}
+
+.warranty .warranty_info > div.direct_box div {
+  width: 28.889vw;
+  font-size: 3.333vw;
+  color: #000;
+  text-align: center;
+}
+
+.warranty .warranty_info > div.direct_box div img {
+  display: block;
+  margin-bottom: 2.778vw;
+}
+
+.warranty .warranty_info > div.img_box {
+  width: 100%;
+}
+
+.warranty .warranty_info > div.img_box img {
+  width: 100%;
+}
+
+.warranty .warranty_info > div.system_box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.139vw solid #C4C4C4;
+  border-radius: 3.889vw;
+  padding: 13.889vw 0 9.167vw 5.278vw;
+}
+
+.warranty .warranty_info > div.system_box h4 {
+  width: 53.889vw;
+  height: 6.389vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2.500vw;
+  background: #000;
+  font-size: 3.056vw;
+  letter-spacing: -0.417vw;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: -3.194vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.warranty .warranty_info > div.system_box img {
+  width: 22.778vw;
+  margin-right: 5.556vw;
+}
+
+.warranty .warranty_info > div.system_box ul {
+  font-size: 3.889vw;
+  color: #31383F;
+}
+
+.warranty .warranty_info > div.system_box ul li {
+  margin-bottom: 3.611vw;
+  padding-left: 2.778vw;
+  position: relative;
+}
+
+.warranty .warranty_info > div.system_box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.warranty .warranty_info > div.system_box ul li::before {
+  content: '';
+  display: block;
+  width: 1.594vw;
+  height: 1.375vw;
+  background: #31383F;
+  position: absolute;
+  left: 0;
+  top: 1.111vw;
+  border-radius: 100%;
+}
+
+.warranty .warranty_info .direct_list {
+  margin-top: 9.167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.warranty .warranty_info .direct_list li {
+  text-align: center;
+}
+
+.warranty .warranty_info .direct_list li span {
+  font-size: 3.333vw;
+  color: #333;
+}
+
+.warranty .warranty_info .direct_list li img {
+  display: block;
+  margin: 3.333vw auto 0;
+}
+
+.warranty .warranty_info .direct_list li:nth-child(1) img {
+  width: 9.722vw;
+}
+
+.warranty .warranty_info .direct_list li:nth-child(2) img {
+  width: 8.333vw;
+}
+
+.warranty .warranty_info .direct_list li:nth-child(3) img {
+  width: 11.158vw;
+}
+
+.warranty .warranty_info .direct_list li:nth-child(4) img {
+  width: 9.167vw;
+}
+
+.hpi .hpi_top {
+  background: #343A40;
+  width: 100%;
+  height: 55.556vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hpi .hpi_top img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.hpi .hpi_top p {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.hpi .hpi_top p.t1 {
+  font-size: 5.556vw;
+}
+
+.hpi .hpi_top p.t2 {
+  font-size: 3.889vw;
+}
+
+.hpi .hpi_info {
+  padding: 11.111vw 6.667vw 27.778vw;
+  background-color: #fff;
+  text-align: center;
+}
+
+.hpi .hpi_info img {
+  width: 100%;
+}
+
+.hpi .hpi_info .t1 {
+  font-size: 5.556vw;
+  color: #31383F;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 7.222vw;
+}
+
+.hpi .hpi_info .t1 b {
+  font-weight: 700;
+}
+
+.hpi .hpi_info .t1 strong {
+  font-weight: 700;
+  color: #BE9162;
+}
+
+.hpi .hpi_info .t2 {
+  font-size: 3.889vw;
+  color: #31383F;
+  font-weight: 700;
+  margin-bottom: 3.333vw;
+}
+
+.hpi .hpi_info .t3 {
+  font-size: 3.889vw;
+  color: #31383F;
+  opacity: 0.75;
+  margin-bottom: 17.778vw;
+  line-height: 1.6;
+}
+
+.hpi .hpi_info .t4 {
+  font-size: 4.444vw;
+  color: #31383F;
+  margin: 11.111vw 0 5.556vw;
+  line-height: 1.6;
+}
+
+.hpi .hpi_info h3 {
+  margin: 8.333vw 0 3.333vw;
+  padding-top: 3.333vw;
+  border-top: 0.278vw solid rgba(49, 56, 63, 0.15);
+  font-size: 3.889vw;
+  font-weight: 700;
+  color: #31383F;
+  text-align: left;
+}
+
 .buy .buy_top {
   padding: 8.889vw 6.667vw 5.566vw;
   margin-bottom: 4.444vw;
@@ -4613,7 +4937,7 @@
 }
 
 .mypage .branch_top {
-  background: #000;
+  background: #343A40;
   width: 100%;
   height: 55.556vw;
   position: relative;
@@ -4654,6 +4978,158 @@
 
 .mypage .branch_top p.t2 {
   font-size: 3.889vw;
+}
+
+.mypage .branch_tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5.556vw;
+}
+
+.mypage .branch_tab a {
+  font-size: 3.889vw;
+  color: #31383F;
+  font-weight: 700;
+  opacity: 0.5;
+  padding: 2.500vw 0;
+  position: relative;
+}
+
+.mypage .branch_tab a.on {
+  opacity: 1;
+}
+
+.mypage .branch_tab a.on::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.556vw;
+  background: #D1AD86;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.mypage .branch_img {
+  height: 69.444vw;
+}
+
+.mypage .branch_img .swiper-slide img {
+  width: 100%;
+}
+
+.mypage .branch_img .swiper-pagination-bullet {
+  width: 4.444vw;
+  height: 0.500vw;
+  display: inline-block;
+  border-radius: 100%;
+  background: #fff;
+  opacity: 0.3;
+}
+
+.mypage .branch_img .swiper-pagination-bullet-active {
+  opacity: 0.75;
+}
+
+.mypage .greetings {
+  padding: 13.056vw 5vw;
+}
+
+.mypage .greetings h3 {
+  font-size: 5.556vw;
+  color: #31383F;
+  font-weight: 400;
+  margin-bottom: 6.111vw;
+}
+
+.mypage .greetings h3 span {
+  color: #BE9162;
+}
+
+.mypage .greetings p {
+  font-size: 3.889vw;
+  color: #000;
+  margin-bottom: 4.167vw;
+  font-weight: 400;
+}
+
+.mypage .branch_intro {
+  padding: 0 4.722vw 18.611vw;
+}
+
+.mypage .branch_intro .t1 {
+  font-size: 3.611vw;
+  font-weight: 500;
+  color: #BE9162;
+  margin-bottom: 1.667vw;
+}
+
+.mypage .branch_intro h3 {
+  font-size: 5.556vw;
+  color: #31383F;
+  font-size: 400;
+  margin-bottom: 1.667vw;
+}
+
+.mypage .branch_intro .adress {
+  font-size: 3.611vw;
+  color: #596066;
+  font-weight: 500;
+}
+
+.mypage .branch_intro .map_box {
+  position: relative;
+  margin-top: 7.778vw;
+  padding-top: 75%;
+}
+
+.mypage .branch_intro .map_box iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mypage .branch_intro ul {
+  margin-top: 13.333vw;
+  font-size: 3.611vw;
+}
+
+.mypage .branch_intro ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5.556vw;
+}
+
+.mypage .branch_intro ul li:last-child {
+  margin-bottom: 0;
+}
+
+.mypage .branch_intro ul li > b {
+  width: 21.111vw;
+  color: #000;
+  font-weight: 500;
+}
+
+.mypage .branch_intro ul li span {
+  color: #596066;
+}
+
+.mypage .branch_intro ul li p {
+  margin-bottom: 2.778vw;
+}
+
+.mypage .branch_intro ul li p:last-child {
+  margin-bottom: 0;
 }
 
 .join {

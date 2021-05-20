@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.warranty {
+    .warranty_top {    
+        background: #343A40;
+        width: 100%;
+        height: 55.556vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            position: absolute;
+            left: 0;
+            top:0;
+            width: 100%;
+        }
+        p {
+            position: relative;
+            z-index: 1;
+            color:#fff;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.6;
+            &.t1 {
+                font-size: $f20;
+
+            }
+            &.t2 {
+                font-size: $f14;
+            }
+        }
+    }
+
+    .warranty_info {
+        padding:10.833vw 5vw 13.889vw;
+        background: #fff;
+        h3 {
+            font-size: $f20;
+            color: #BE9162;
+            font-weight: 400;
+            margin-top: 10.833vw;
+            &:first-of-type {
+                margin-top: 0;
+            }
+        }
+        .t1 {
+            font-size: $f18;
+            color: #31383F;
+            text-align: center;
+            margin-top: 3.333vw;
+        }
+        .t2 {
+            font-size: $f13;
+            color: #31383F;
+            text-align: center;
+            letter-spacing: -0.02em;
+            margin-top: 2.222vw;
+        }
+        > div {
+            margin-top: 11.111vw;
+            &.direct_box {
+                display: flex;
+                justify-content: space-between;
+                > img {
+                    width: 20.833vw;
+                }
+                div {
+                    width: 28.889vw;
+                    font-size: $f12;
+                    color:#000;
+                    text-align: center;
+                    img {
+                        display: block;
+                        margin-bottom: 2.778vw;
+                    }
+                }
+            }
+            &.img_box {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            &.system_box {
+                position: relative;
+                display: flex;
+                align-items: center;
+                border: 0.139vw solid #C4C4C4;
+                border-radius: 3.889vw;
+                padding: 13.889vw 0 9.167vw 5.278vw;
+                h4 {
+                    width: 53.889vw;
+                    height: 6.389vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2.500vw;
+                    background: #000;
+                    font-size: $f11;
+                    letter-spacing: -0.417vw;
+                    color:#fff;
+                    position: absolute;
+                    left: 50%;
+                    top:-3.194vw;
+                    transform: translateX(-50%);
+                }
+                img {
+                    width: 22.778vw;
+                    margin-right: 5.556vw;
+                    
+                }
+                ul {
+                    font-size: $f14;
+                    color: #31383F;
+                    li {
+                        margin-bottom: 3.611vw;
+                        padding-left: 2.778vw;
+                        position: relative;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        &::before {
+                            content: '';
+                            display: block;
+                            width: 1.594vw;
+                            height: 1.375vw;
+                            background: #31383F;
+                            position: absolute;
+                            left: 0;
+                            top:1.111vw;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .direct_list {
+            margin-top: 9.167vw;
+            display: flex;
+            justify-content: space-between;
+            li {
+                text-align: center;
+                span {
+                    font-size: $f12;
+                    color:#333;
+                }
+                img {
+                    display: block;
+                    margin: 3.333vw auto 0;
+                }
+                &:nth-child(1) img {
+                    width: 9.722vw;
+                }
+                &:nth-child(2) img {
+                    width: 8.333vw;
+                }
+                &:nth-child(3) img {
+                    width: 11.158vw;
+                }
+                &:nth-child(4) img {
+                    width: 9.167vw;
+                }
+            }
+        }
+
+    }
+}
+
