@@ -595,6 +595,24 @@ footer .footer_btm li span {
   color: #31383f;
 }
 
+.popup_alert .t5 {
+  font-size: 4.444vw;
+  font-weight: 500;
+  color: #31383f;
+  opacity: 0.75;
+  margin-top: 2.222vw;
+  text-align: center;
+}
+
+.popup_alert .t6 {
+  font-size: 3.611vw;
+  font-weight: 500;
+  color: #31383f;
+  opacity: 0.75;
+  margin-top: 4.444vw;
+  text-align: center;
+}
+
 .popup_alert .tbl_info {
   table-layout: fixed;
   width: 100%;
@@ -620,6 +638,31 @@ footer .footer_btm li span {
   font-size: 3.056vw;
   color: #31383F;
   vertical-align: top;
+}
+
+.popup_alert .setting_box {
+  background: #F3F6F9;
+  border: 0.278vw solid #F1F1F1;
+  border-radius: 0.556vw;
+  padding: 6.667vw;
+  margin-top: 4.444vw;
+  font-size: 3.889vw;
+}
+
+.popup_alert .setting_box ul li {
+  margin-bottom: 3.333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popup_alert .setting_box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.popup_alert .setting_box ul li span {
+  width: 31.389vw;
+  opacity: 0.75;
 }
 
 .popup_alert .btn,

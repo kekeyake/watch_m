@@ -482,7 +482,23 @@ footer {
     font-weight: 700;
     color:rgba(49, 56, 63, 1);
   }
-  
+  .t5 {
+    font-size: $f16;
+    font-weight: 500;
+    color:rgba(49, 56, 63, 1);
+    opacity: 0.75;
+    margin-top: 2.222vw;
+    text-align: center;
+  }
+  .t6 {
+    font-size: $f13;
+    font-weight: 500;
+    color:rgba(49, 56, 63, 1);
+    opacity: 0.75;
+    margin-top: 4.444vw;
+    text-align: center;
+  }
+
   .tbl_info {
     table-layout: fixed;
     width: 100%;
@@ -505,6 +521,30 @@ footer {
       color: #31383F;
       vertical-align: top;
     }
+  }
+
+  .setting_box {
+    background: #F3F6F9;
+    border: 0.278vw solid #F1F1F1;
+    border-radius: 0.556vw;
+    padding:6.667vw;
+    margin-top: 4.444vw;
+    font-size: $f14;
+    
+    ul {
+      li {
+        margin-bottom: 3.333vw;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        display: flex;
+        span {
+          width: 31.389vw;
+          opacity: 0.75;
+        }
+      }
+    }
+    
   }
 
   .btn,
